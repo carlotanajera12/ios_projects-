@@ -1,0 +1,35 @@
+# Project 7 - Task Manager App
+
+Submitted by: **Carlota Najera**
+
+**Task Manager App** is an iOS app that allows users to create, edit, complete, and delete tasks. The app also includes a calendar view to help organize tasks by date, and all tasks are saved so they persist even after the app is closed.
+
+Time spent: **6–8 hours** spent in total
+
+## Required Features
+
+The following **required** functionality is completed:
+
+- [x] App displays a list of tasks
+- [x] Users can add tasks to the list
+- [x] Session persists when application is closed and relaunched (tasks dont get deleted when closing app) 
+  - [x] Note: You have to quit the app, not minimize it, in order to see the persistence.
+- [x] Tasks can be deleted
+- [x] Users have a calendar view via navigation controller that displays tasks	
+
+
+## Video Walkthrough
+
+Here is the video walkthrough:
+
+[Google Drive]
+
+## Notes
+
+One challenge I encountered was setting up navigation controllers correctly, especially connecting the "+" button to the correct screen for creating new tasks. I also had difficulty passing data between view controllers and ensuring tasks were saved properly using UserDefaults. Debugging storyboard connections and segues was a key part of completing this project.
+
+## License
+
+Copyright 2026 Carlota Najera
+
+Licensed under the Apache License, Version 2.0
